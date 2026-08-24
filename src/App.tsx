@@ -1,4 +1,6 @@
-const App = ()=>{
-  return <h1>Hello world</h1>
+import LoginForm from "./components/LoginForm/LoginForm";
+
+const App = () => {
+  return <LoginForm />
 }
 export default App;
