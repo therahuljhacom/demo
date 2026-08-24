@@ -11,6 +11,7 @@ const ProductListing = () => {
             const data = await response.json();
             setProducts(data.products);
             setLoading(false);
+            // hello worl 
         } catch (error) {
             setError(error);
             setLoading(false);
